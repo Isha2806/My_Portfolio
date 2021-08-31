@@ -4,10 +4,13 @@
     --primary-color: blue; 
     --yellow-color:#F6D167;
     --light-yellow:#FFF7AE;
+    --off-white:#E8F6EF;
+
 }
 body{
     font-family: 'Balsamiq Sans', cursive;
     color: black;
+    background-color: var(--off-white);
     
 
 
@@ -26,10 +29,12 @@ h1{
     text-align: center;
     font-size: 25px;
 }
-
+.h3{
+  
+}
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 14%;
+    padding-right: 14%;
     padding-bottom: 1rem;
 }
 /** Fluid container is used for navs!**/
@@ -49,6 +54,7 @@ h1{
     margin:0.5%;
     color:whitesmoke;
     border-top-left-radius :2rem;
+    border-bottom-right-radius: 2rem;
     
     
   }
@@ -60,7 +66,7 @@ h1{
     padding: 10px;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 150%;
     margin:2px;
     
   }
@@ -137,6 +143,7 @@ h1{
     background-color:#0483aa;
     overflow: auto;
     border-top-right-radius: 1rem;
+    border-top-left-radius:1rem;
   }
   .footer a{
 
@@ -146,4 +153,5 @@ h1{
     color: white;
     text-decoration: none;
     font-size: 17px;
+    margin: 5px;
   }
