@@ -28,6 +28,7 @@ h1{
     padding:  3rem,3rem,3rem,3rem;
     text-align: center;
     font-size: 25px;
+    color:whitesmoke;
 }
 .h3{
   
@@ -73,12 +74,12 @@ h1{
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color:#aa8c04;
+    background-color:#cca704;
   }
   
   /* Current/active navbar link */
   .active {
-    background-color: #cca704;
+    background-color: #0483aa;
   }
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels 
@@ -120,10 +121,10 @@ h1{
 /**______________________________________________________________________________________________________________________________                      section Class        **/
 
 .section{
-    background-color: var(--yellow-color);
+    background-color: var(--light-yellow)
 }
 .Project{
-    background-color: var(--light-yellow);
+    background-color: var(--yellow-color);
 }
 .blogs{
     background-color: var(--yellow-color);
@@ -155,3 +156,19 @@ h1{
     font-size: 17px;
     margin: 5px;
   }
+/*BLOGS*/
+.blog-img{
+  width: 50%;
+  height: 50%;
+  
+}
+.project-img{
+  
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%
+
+  
+}
