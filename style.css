@@ -1,10 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Roboto+Slab&display=swap');
 
+:root{
+    --primary-color: blue; 
+}
 body{
-    
-font-family: 'Roboto Slab', serif;
+    font-family: 'Balsamiq Sans', cursive;
+
 }
 h1{
     color:red;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Roboto Slab', serif;
 }
+.h3{
+    color:whitesmoke;
+    padding:  3rem,3rem,3rem,3rem;
+    text-align: center;
+    font-size: 50%;
+}
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+/** Fluid container is used for navs!**/
+.container-center{
+    max-width: 600%;
+    margin:auto;
+}
+/**Links**/
+.primary{
+    color:red;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color:#0483aa;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: center;
+    text-align: left;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color:#aa8c04;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #cca704;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels 
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      
+    }
+  }*/
+
+  /*Footer section*/
+  .footer{
+    width: 100%;
+    background-color:#0483aa;
+    overflow: auto;
+  }
+  .footer a{
+
+    float: center;
+    text-align: center;
+    padding: 12px, ;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
