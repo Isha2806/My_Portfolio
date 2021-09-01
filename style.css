@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Roboto+Slab&display=swap');
 
 :root{
-    --primary-color: blue; 
+    --primary-color:var(--off-white); 
     --yellow-color:#F6D167;
     --light-yellow:#FFF7AE;
     --off-white:#E8F6EF;
+    --greenme:#4CAF50;
 
 }
 body{
@@ -172,3 +173,20 @@ h1{
 
   
 }
+.button {
+  border: 4000 rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 12px;
+  cursor: pointer;
+  
+}
+.button1 {background-color:#073e50; } /* Green */
+.button2  {background-color:var(--light-yellow) ;
+  
+  
+} /* Blue *
