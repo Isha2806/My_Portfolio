@@ -22,6 +22,7 @@ h1{
     font-family: 'Roboto Slab', serif;
     text-align: center;
     padding: 2rem;
+    background-color:var(--yellow-color);
 
 }
 .h2{
@@ -168,7 +169,7 @@ h1{
   background-color: #0483aa;
 }
 .link-primary {
-    background-color: var(--primary-color);
+    background-color: var(--greenme);
     border-radius: 0.5rem;
     color: --yellow-color;
     display: block;
