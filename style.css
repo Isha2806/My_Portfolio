@@ -233,7 +233,11 @@ h1{
   
 }
 .button1 {background-color:#073e50; } /* Green */
-.button2  {background-color:var(--light-yellow) ;
+.button2  {background-color:var(--light-yellow) ;}
   
   
-} /* Blue */
+.img-footer{
+  width: 30%;
+  height: 30%;
+  border-bottom-left-radius: 30%;
+}
