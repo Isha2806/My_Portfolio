@@ -2,10 +2,11 @@
 
 :root{
     --primary-color:var(--off-white); 
-    --yellow-color:#F6D167;
-    --light-yellow:#FFF7AE;
+    --yellow-color:#A2CDCD;
+    
+    --light-yellow:#FDD2BF;
     --off-white:#E8F6EF;
-    --greenme:#4CAF50;
+    --greenme:#A2CDCD;
 
 }
 body{
@@ -32,9 +33,7 @@ h1{
     font-size: 25px;
     color:whitesmoke;
 }
-.h3{
-  
-}
+
 .container{
     padding-left: 14%;
     padding-right: 14%;
@@ -52,7 +51,7 @@ h1{
 /* Style the navigation bar */
 .navbar {
     width:100%;
-    background-color:#0483aa;
+    background-color:#150050;
     overflow: auto;
     margin:0.5%;
     color:whitesmoke;
@@ -191,7 +190,7 @@ h1{
   /*Footer section*/
   .footer{
     width: 100%;
-    background-color:#0483aa;
+    background-color:#150050;
     overflow: auto;
     border-top-right-radius: 1rem;
     border-top-left-radius:1rem;
